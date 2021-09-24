@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> Isi Formulir </title>
+    </head>
+
+    <body>
+
+        <!-- Kolom formulir -->
+        <div>
+            <form>
+                <fieldset>
+                    <legend> Data Diri dan Pesan </legend>
+                        <label for="nama">Nama</label><br>
+                        <input type="text" placeholder="Nama Anda" id="nama">
+                    <br><br>
+                        <label for="email">Alamat Email</label><br>
+                        <input type="text" placeholder="Alamat Email" id="email">
+                    <br><br>
+                        <label for="pesan">Pesan</label><br>
+                        <textarea cols="50" rows="5" placeholder="Tulis pesan anda..." id="pesan"></textarea>
+                </fieldset>
+                <br><br>
+                <fieldset>
+                    <legend> Pilihan Data </legend>
+                    <label>Pilih hobi anda</label><br>
+                        <input type="checkbox" name="hobi_user" value="0" checked> Menggambar
+                        <input type="checkbox" name="hobi_user" value="1"> Menulis
+                        <input type="checkbox" name="hobi_user" value="2"> Berenang
+                        <input type="checkbox" name="hobi_user" value="3"> Karate
+                        <input type="checkbox" name="hobi_user" value="2"> Yang lainnya
+
+                    <br><br>
+                        <label> Pilih gender anda</label><br>
+                        <input type="radio" name="gender" value="0"> Laki-laki
+                        <input type="radio" name="gender" value="1" checked> Perempuan
+
+                    <br><br>
+                    <label>Pilih pelajaran yang tersedia</label>
+                    <select>
+                        <optgroup label="Frontend">
+                            <option value="html">HTML</option>
+                            <option value="css">CSS</option>
+                        </optgroup>
+
+                        <optgroup label="Backend">
+                            <option value="php">PHP</option>
+                            <option value="database">Database</option>
+                        </optgroup>
+                    </select>
+
+                    <br><br>
+                    <input type="submit" value="Kirim Data">
+                </fieldset>
+
+            </form>
+        </div>
+
+        <!-- Ke halaman awal -->
+        <div>
+            <br>
+            <a href="Daftar Film Di Tahun 2021.html"> Ke Halaman Awal </a>
+        </div>
+    </body>
+</html>
