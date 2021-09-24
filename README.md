@@ -1,2 +1,3 @@
 # Mini-Club
-Ini Repositori untuk menampung kode-kode dari klub di kelas
+Ini Repositori untuk menampung kode-kode
+dari Mini Club Divisi Web di kelas Jeruk Jingga
