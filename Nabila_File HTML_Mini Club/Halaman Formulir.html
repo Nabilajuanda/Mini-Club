@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Isi Formulir</title>
+    <style>
+      body {
+        background-color: #802000;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Kolom formulir -->
+    <div>
+      <form>
+        <fieldset>
+          <legend style="color: white">Data Diri dan Pesan</legend>
+          <label style="color: white" for="nama">Nama</label><br />
+          <input type="text" placeholder="Nama Anda" id="nama" />
+          <br /><br />
+          <label style="color: white" for="email">Alamat Email</label><br />
+          <input type="text" placeholder="Alamat Email" id="email" />
+          <br /><br />
+          <label style="color: white" for="pesan">Pesan</label><br />
+          <textarea
+            cols="50"
+            rows="5"
+            placeholder="Tulis pesan anda..."
+            id="pesan"
+          ></textarea>
+        </fieldset>
+        <br /><br />
+        <fieldset>
+          <legend style="color: white">Pilihan Data</legend>
+          <label style="color: white">Pilih hobi anda</label><br />
+          <input
+            type="checkbox"
+            name="hobi_user"
+            value="0"
+            checked
+            style="color: white"
+          />
+          Menggambar
+          <input
+            type="checkbox"
+            name="hobi_user"
+            value="1"
+            style="color: white"
+          />
+          Menulis
+          <input
+            type="checkbox"
+            name="hobi_user"
+            value="2"
+            style="color: white"
+          />
+          Berenang
+          <input
+            type="checkbox"
+            name="hobi_user"
+            value="3"
+            style="color: white"
+          />
+          Karate
+          <input
+            type="checkbox"
+            name="hobi_user"
+            value="2"
+            style="color: white"
+          />
+          Yang lainnya
+
+          <br /><br />
+          <label style="color: white"> Pilih gender anda</label><br />
+          <input type="radio" name="gender" value="0" style="color: white" />
+          Laki-laki
+          <input
+            type="radio"
+            name="gender"
+            value="1"
+            checked
+            style="color: white"
+          />
+          Perempuan
+
+          <br /><br />
+          <label style="color: white">Pilih pelajaran yang tersedia</label>
+          <select>
+            <optgroup label="Frontend">
+              <option value="html">HTML</option>
+              <option value="css">CSS</option>
+            </optgroup>
+
+            <optgroup label="Backend">
+              <option value="php">PHP</option>
+              <option value="database">Database</option>
+            </optgroup>
+          </select>
+
+          <br /><br />
+          <input type="submit" value="Kirim Data" />
+        </fieldset>
+      </form>
+    </div>
+
+    <!-- Ke halaman awal -->
+    <div>
+      <br />
+      <a href="Daftar Film Di Tahun 2021.html" style="color: white">
+        Ke Halaman Awal
+      </a>
+    </div>
+  </body>
+</html>
